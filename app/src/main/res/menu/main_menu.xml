@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:title="add"
+        android:id="@+id/add"
+        app:showAsAction="always"/>
+    <item android:title="aboutus"
+        android:id="@+id/aboutus"/>
+    <item android:title="contactus"
+        android:id="@+id/contactus"/>
+    <item android:title="feedback"
+        android:id="@+id/feedback"/>
+
+
+</menu>

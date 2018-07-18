@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.admin.ui1.ExpenseDetailActivity"
+    tools:showIn="@layout/activity_expensedetail">
+
+   <LinearLayout
+       android:layout_width="wrap_content"
+       android:layout_height="400dp"
+       android:layout_marginTop="200dp"
+       android:orientation="vertical">
+
+   <android.support.v7.widget.CardView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="15dp"
+       android:layout_marginLeft="130dp"
+       android:layout_centerHorizontal="true"
+       app:cardCornerRadius="10dp">
+
+    <EditText
+        android:id="@+id/expensedetailname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+        android:hint="NAME"
+
+
+        tools:layout_editor_absoluteY="295dp" />
+   </android.support.v7.widget.CardView>
+
+       <android.support.v7.widget.CardView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="15dp"
+           android:layout_marginLeft="130dp"
+           android:layout_centerHorizontal="true"
+           app:cardCornerRadius="10dp">
+       <EditText
+     android:id="@+id/expensedetaildate"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+      android:textColor="#FFFFFF"
+      android:background="@color/colorPrimaryDark"
+           android:layout_centerHorizontal="true"
+     android:focusable="false"
+     android:hint="DATE"
+
+
+        tools:layout_editor_absoluteY="321dp" />
+       </android.support.v7.widget.CardView>
+
+       <android.support.v7.widget.CardView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="15dp"
+           android:layout_marginLeft="130dp"
+           android:layout_centerHorizontal="true"
+           app:cardCornerRadius="10dp">
+    <EditText
+     android:id="@+id/expensedetailtime"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:background="@color/colorPrimaryDark"
+        android:layout_centerHorizontal="true"
+     android:focusable="false"
+     android:hint="TIME"
+
+
+        tools:layout_editor_absoluteY="373dp" />
+       </android.support.v7.widget.CardView>
+
+       <android.support.v7.widget.CardView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="15dp"
+           android:layout_marginLeft="130dp"
+           android:layout_centerHorizontal="true"
+           app:cardCornerRadius="10dp">
+       <EditText
+     android:id="@+id/expensedetailnotes"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:textColor="#FFFFFF"
+           android:background="@color/colorPrimaryDark"
+     android:hint="NOTES"
+
+
+        tools:layout_editor_absoluteY="426dp" />
+       </android.support.v7.widget.CardView>
+
+       <android.support.v7.widget.CardView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="20dp"
+           android:layout_marginLeft="130dp"
+           android:layout_centerHorizontal="true"
+           app:cardCornerRadius="10dp">
+       <Button
+     android:id="@+id/expensedetailsubmitbutton"
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+           android:textColor="#FFFFFF"
+           android:layout_centerHorizontal="true"
+           android:background="@color/colorPrimaryDark"
+
+        tools:layout_editor_absoluteY="495dp" />
+       </android.support.v7.widget.CardView>
+   </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
